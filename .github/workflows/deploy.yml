@@ -44,7 +44,7 @@ jobs:
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
           GTM_CONTAINER_ID: ${{ secrets.GTM_CONTAINER_ID }}
 
-      - name: Deploy
+      - name: Deploy gh-page
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
