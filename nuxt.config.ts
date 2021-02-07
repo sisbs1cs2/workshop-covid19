@@ -11,9 +11,6 @@ const config: NuxtConfig = {
   // mode: 'universal',
   target: 'static',
   components: true,
-  router: {
-    base: '/workshop2/',
-  },
   /*
    ** Headers of the page
    */
