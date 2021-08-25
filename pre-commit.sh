@@ -2,9 +2,9 @@
 # ref: https://qiita.com/ryounagaoka/items/3e7a1b44d43ad0547d4f
 
 unchangeable_files=(
-  ^assets/locales/en.json
-  ^assets/locales/ja-Hira.json
-  ^assets/locales/ko.json
+  ^#assets/locales/en.json
+  ^#assets/locales/ja-Hira.json
+  ^#assets/locales/ko.json
   ^assets/locales/pt_BR.json
   ^assets/locales/th.json
   ^assets/locales/vi.json
